@@ -1,0 +1,274 @@
+/*CSS Styles*/
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    font-family: verdana, helvetica, arial;
+    background: url(../images/goth-succulents.jpg);
+}
+
+body.home #wrapper {
+    width:940px;
+    margin:30px auto;
+    padding:20px;
+    background: #ddd2d8;
+    border: 5px solid #fff;
+    background:rgba(255, 255, 255, .93);
+
+}
+
+body.inner #wrapper {
+    width:940px;
+    margin:30px auto;
+    padding:20px;
+    background: #ddd2d8;
+    border: 5px solid #fff;
+    background:rgba(255, 255, 255, .93);
+
+}
+
+body.art #wrapper {
+    width:940px;
+    margin:30px auto;
+    padding:20px;
+    background: #ddd2d8;
+    border: 5px solid #fff;
+    background:rgba(255, 255, 255, .93);
+
+}
+
+body.contact #wrapper {
+    width:940px;
+    margin:30px auto;
+    padding:20px;
+    background: #ddd2d8;
+    border: 5px solid #fff;
+    background:rgba(255, 255, 255, .93);
+
+}
+
+body.home nav#primary > ul > li:nth-child(1),
+body.about nav#primary > ul > li:nth-child(2),
+body.art nav#primary > ul > li:nth-child(3),
+body.contact nav#primary > ul > li:nth-child(4){
+        background:#f23097;
+}
+
+header {
+    height:100px;
+}
+
+header img.left {
+    width:100px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+header img.insta {
+    width:40px;
+    float: right;
+    padding:60px 5px 0 0;
+}
+
+header img.facebook {
+    width:45px;
+    float: right;
+    padding:57px 5px 0 0;
+}
+
+nav#primary {
+    height:50px;
+    line-height:50px;
+    background:#ddd;
+    clear: both;
+    margin-bottom: 30px;
+    
+}
+
+nav#primary li{
+    float:left;
+    list-style-type: none;
+    width:23.6%;
+    text-align:center;
+    position: relative;
+}
+
+nav#primary a {
+    text-decoration: none;
+    display: block;
+    color:#000;
+}
+
+nav#primary ul {
+    width: 940px;
+    margin:0 auto;
+}
+
+nav#primary a:hover {
+    background:#f23097;
+}
+
+.drop-down {
+    display: none;
+}
+
+nav#primary li:hover .drop-down {
+    display: block;
+    position: absolute;
+    top:50px;
+    left: 0;
+    background:#ddd;
+    width: 100%;
+    z-index: 1;
+}
+
+nav#primary li:hover .drop-down li {
+    float: none;
+    width: auto;
+}
+
+
+#banner {
+    margin-bottom: 20px;
+    
+}
+
+#banner img {
+    border: 2px solid #fff;
+    width: 820px;
+}
+
+main.home{
+    width:540px;
+    float:left;
+    margin-bottom: 30px;
+    
+}
+
+main.inner {
+    margin-bottom: 30px;
+}
+
+main.inner img {
+    float:right;
+    margin:10px;
+    border: 2px solid #fff;
+}
+
+main.art {
+    float:left;
+    width: 890px;
+    margin-bottom: 30px;
+    
+}
+
+
+footer {
+    border-top: 1px dotted #666;
+    height:50px;
+    line-height:50px;
+    clear:both;
+    padding: 10px;
+    
+}
+
+footer ul {
+    padding-left:70px;
+    }
+    
+footer li {
+    float:left;
+    list-style-type: none;
+    margin-right:60px;
+    font-size: .875em;
+    color: #666
+}
+
+footer a {
+    color: #666
+}
+
+footer img {
+    width: 30px;
+    margin: 10px auto 0 auto;
+    
+}
+    
+img { 
+    max-width: 100%;
+    display: block;
+    margin:0 auto 0 auto;
+        
+    }
+
+main img {
+    border: 4px solid #fff;
+}
+
+main img.left {
+    float:left;
+    margin-left: 100px;
+    
+}
+
+main img.right {
+    margin-bottom: 30px;
+}
+
+
+
+/*+++++++++Typography+++++++++*/
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    
+    margin-bottom: 10px;
+    font-family: 'alex_brushregular';
+    font-size: 2.441em;
+    line-height: 1.15;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-family: "Times New Roman", serif;
+    font-size: 1.953em;
+    line-height: 1.15;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-family: "Times New Roman", serif;
+    font-size: 1.563em;
+    line-height: 1.1;
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*++++++++Bluberry+++++++++*/
+
+.blueberry { max-width: 960px; }
+    
+    #bluberry-wrapper {
+        width:90%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+
+
